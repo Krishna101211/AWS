@@ -1,0 +1,13 @@
+cat > styles.css << 'EOF'
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+}
+h1 { font-size: 3em; }
+EOF
